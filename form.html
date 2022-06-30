@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>static form demo</title>
+    <meta name="description" content="foo">
+    <meta name="author" content="bar">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="data:,">
+</head>
+<body>
+<main class="home">
+    <form action="http://localhost:8080/94oco4u" method="post">
+        <label for="email">Your Email</label>
+        <input name="email" id="email" type="email">
+        <label for="message">Message</label>
+        <textarea name="message" id="message"></textarea>
+        <input type="hidden" name="_redirect" value="http://localhost:8080/thanks.html" />
+        <input type="text" name="_dry" style="display:none !important" tabindex="-1" autocomplete="false" />
+        <button type="submit">Submit</button>
+    </form>
+</main>
+</body>
+</html>
